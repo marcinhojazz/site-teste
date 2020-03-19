@@ -13,7 +13,7 @@ ul {
     height: 60px;
 }
 
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -143,7 +143,7 @@ button.slick-next {
 }
 
 .slick-dots {
-    margin: 0 auto;
+    margin: 0 auto; 
     width: 50%;
     position: absolute;
     left: 45%;
@@ -158,4 +158,27 @@ li.slick-active button {
 .slick-dots li {
     padding-left: 10px;
     display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque strong {
+    color: #66CBFD;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+.col-3 {
+    position: center;
 }
